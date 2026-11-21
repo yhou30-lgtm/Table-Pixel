@@ -6,7 +6,7 @@ export const SITE = {
   description:
     "Table & Pixel builds beautiful, modern websites for independent restaurants in the United States, so customers can discover, explore and visit them.",
   // Set this to your real domain before launch. Used for SEO tags and the sitemap.
-  url: "https://tableandpixel.example",
+  url: "https://yhou30-lgtm.github.io/Table-Pixel",
 };
 
 export const NAV = [

@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://yhou30-lgtm.github.io/Table-Pixel/sitemap.xml

@@ -37,3 +37,12 @@ The form validates input but sends nothing until `FORM_ENDPOINT` in `lib/site.ts
 4. Deploy, then add your custom domain under the project's Custom domains tab.
 
 Fonts (Fraunces, Inter) are downloaded during the build, so the build machine needs internet access.
+
+## Publish on GitHub Pages
+
+The `docs` folder holds the built site. GitHub Pages serves it at https://yhou30-lgtm.github.io/Table-Pixel/ (Settings, Pages, Branch main, folder /docs). GitHub does not run the build, so after changing the site, rebuild and push:
+
+```
+MSYS_NO_PATHCONV=1 BASE_PATH=/Table-Pixel npx next build   # in Git Bash
+rm -rf docs && cp -r out docs && touch docs/.nojekyll
+```
